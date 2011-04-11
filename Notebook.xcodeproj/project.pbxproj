@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B708E2513539E78005B1A34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B708E2413539E78005B1A34 /* UIKit.framework */; };
+		5B708E2713539E78005B1A34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B708E2613539E78005B1A34 /* Foundation.framework */; };
+		5B708E2913539E78005B1A34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B708E2813539E78005B1A34 /* CoreGraphics.framework */; };
+		5B708E2F13539E78005B1A34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B708E2D13539E78005B1A34 /* InfoPlist.strings */; };
+		5B708E3213539E78005B1A34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B708E3113539E78005B1A34 /* main.m */; };
+		5B708E3513539E78005B1A34 /* NotebookAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B708E3413539E78005B1A34 /* NotebookAppDelegate.m */; };
+		5B708E3813539E78005B1A34 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B708E3613539E78005B1A34 /* MainWindow.xib */; };
+		5B708E3B13539E78005B1A34 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B708E3A13539E78005B1A34 /* RootViewController.m */; };
+		5B708E3E13539E78005B1A34 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B708E3C13539E78005B1A34 /* RootViewController.xib */; };
+		5B708E4513539E78005B1A34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B708E2413539E78005B1A34 /* UIKit.framework */; };
+		5B708E4613539E78005B1A34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B708E2613539E78005B1A34 /* Foundation.framework */; };
+		5B708E4713539E78005B1A34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B708E2813539E78005B1A34 /* CoreGraphics.framework */; };
+		5B708E4F13539E79005B1A34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B708E4D13539E79005B1A34 /* InfoPlist.strings */; };
+		5B708E5213539E79005B1A34 /* NotebookTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 5B708E5113539E79005B1A34 /* NotebookTests.h */; };
+		5B708E5413539E79005B1A34 /* NotebookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B708E5313539E79005B1A34 /* NotebookTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B708E4813539E78005B1A34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B708E1713539E78005B1A34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B708E1F13539E78005B1A34;
+			remoteInfo = Notebook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B708E2013539E78005B1A34 /* Notebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B708E2413539E78005B1A34 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B708E2613539E78005B1A34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B708E2813539E78005B1A34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B708E2C13539E78005B1A34 /* Notebook-Info.plist */ = {isa = PBXFileReference; path = "Notebook-Info.plist"; sourceTree = "<group>"; };
+		5B708E2E13539E78005B1A34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B708E3013539E78005B1A34 /* Notebook-Prefix.pch */ = {isa = PBXFileReference; path = "Notebook-Prefix.pch"; sourceTree = "<group>"; };
+		5B708E3113539E78005B1A34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B708E3313539E78005B1A34 /* NotebookAppDelegate.h */ = {isa = PBXFileReference; path = NotebookAppDelegate.h; sourceTree = "<group>"; };
+		5B708E3413539E78005B1A34 /* NotebookAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotebookAppDelegate.m; sourceTree = "<group>"; };
+		5B708E3713539E78005B1A34 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		5B708E3913539E78005B1A34 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		5B708E3A13539E78005B1A34 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		5B708E3D13539E78005B1A34 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		5B708E4413539E78005B1A34 /* NotebookTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotebookTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B708E4C13539E79005B1A34 /* NotebookTests-Info.plist */ = {isa = PBXFileReference; path = "NotebookTests-Info.plist"; sourceTree = "<group>"; };
+		5B708E4E13539E79005B1A34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B708E5013539E79005B1A34 /* NotebookTests-Prefix.pch */ = {isa = PBXFileReference; path = "NotebookTests-Prefix.pch"; sourceTree = "<group>"; };
+		5B708E5113539E79005B1A34 /* NotebookTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotebookTests.h; sourceTree = "<group>"; };
+		5B708E5313539E79005B1A34 /* NotebookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotebookTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B708E1D13539E78005B1A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B708E2513539E78005B1A34 /* UIKit.framework in Frameworks */,
+				5B708E2713539E78005B1A34 /* Foundation.framework in Frameworks */,
+				5B708E2913539E78005B1A34 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B708E4013539E78005B1A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B708E4513539E78005B1A34 /* UIKit.framework in Frameworks */,
+				5B708E4613539E78005B1A34 /* Foundation.framework in Frameworks */,
+				5B708E4713539E78005B1A34 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B708E1513539E78005B1A34 = {
+			isa = PBXGroup;
+			children = (
+				5B708E2A13539E78005B1A34 /* Notebook */,
+				5B708E4A13539E78005B1A34 /* NotebookTests */,
+				5B708E2313539E78005B1A34 /* Frameworks */,
+				5B708E2113539E78005B1A34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B708E2113539E78005B1A34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B708E2013539E78005B1A34 /* Notebook.app */,
+				5B708E4413539E78005B1A34 /* NotebookTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B708E2313539E78005B1A34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B708E2413539E78005B1A34 /* UIKit.framework */,
+				5B708E2613539E78005B1A34 /* Foundation.framework */,
+				5B708E2813539E78005B1A34 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B708E2A13539E78005B1A34 /* Notebook */ = {
+			isa = PBXGroup;
+			children = (
+				5B708E3313539E78005B1A34 /* NotebookAppDelegate.h */,
+				5B708E3413539E78005B1A34 /* NotebookAppDelegate.m */,
+				5B708E3613539E78005B1A34 /* MainWindow.xib */,
+				5B708E3913539E78005B1A34 /* RootViewController.h */,
+				5B708E3A13539E78005B1A34 /* RootViewController.m */,
+				5B708E3C13539E78005B1A34 /* RootViewController.xib */,
+				5B708E2B13539E78005B1A34 /* Supporting Files */,
+			);
+			path = Notebook;
+			sourceTree = "<group>";
+		};
+		5B708E2B13539E78005B1A34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B708E2C13539E78005B1A34 /* Notebook-Info.plist */,
+				5B708E2D13539E78005B1A34 /* InfoPlist.strings */,
+				5B708E3013539E78005B1A34 /* Notebook-Prefix.pch */,
+				5B708E3113539E78005B1A34 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B708E4A13539E78005B1A34 /* NotebookTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B708E5113539E79005B1A34 /* NotebookTests.h */,
+				5B708E5313539E79005B1A34 /* NotebookTests.m */,
+				5B708E4B13539E79005B1A34 /* Supporting Files */,
+			);
+			path = NotebookTests;
+			sourceTree = "<group>";
+		};
+		5B708E4B13539E79005B1A34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B708E4C13539E79005B1A34 /* NotebookTests-Info.plist */,
+				5B708E4D13539E79005B1A34 /* InfoPlist.strings */,
+				5B708E5013539E79005B1A34 /* NotebookTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B708E1F13539E78005B1A34 /* Notebook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B708E5713539E79005B1A34 /* Build configuration list for PBXNativeTarget "Notebook" */;
+			buildPhases = (
+				5B708E1C13539E78005B1A34 /* Sources */,
+				5B708E1D13539E78005B1A34 /* Frameworks */,
+				5B708E1E13539E78005B1A34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Notebook;
+			productName = Notebook;
+			productReference = 5B708E2013539E78005B1A34 /* Notebook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B708E4313539E78005B1A34 /* NotebookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B708E5A13539E79005B1A34 /* Build configuration list for PBXNativeTarget "NotebookTests" */;
+			buildPhases = (
+				5B708E3F13539E78005B1A34 /* Sources */,
+				5B708E4013539E78005B1A34 /* Frameworks */,
+				5B708E4113539E78005B1A34 /* Resources */,
+				5B708E4213539E78005B1A34 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B708E4913539E78005B1A34 /* PBXTargetDependency */,
+			);
+			name = NotebookTests;
+			productName = NotebookTests;
+			productReference = 5B708E4413539E78005B1A34 /* NotebookTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B708E1713539E78005B1A34 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5B708E1A13539E78005B1A34 /* Build configuration list for PBXProject "Notebook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B708E1513539E78005B1A34;
+			productRefGroup = 5B708E2113539E78005B1A34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B708E1F13539E78005B1A34 /* Notebook */,
+				5B708E4313539E78005B1A34 /* NotebookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B708E1E13539E78005B1A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B708E2F13539E78005B1A34 /* InfoPlist.strings in Resources */,
+				5B708E3813539E78005B1A34 /* MainWindow.xib in Resources */,
+				5B708E3E13539E78005B1A34 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B708E4113539E78005B1A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B708E4F13539E79005B1A34 /* InfoPlist.strings in Resources */,
+				5B708E5213539E79005B1A34 /* NotebookTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B708E4213539E78005B1A34 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B708E1C13539E78005B1A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B708E3213539E78005B1A34 /* main.m in Sources */,
+				5B708E3513539E78005B1A34 /* NotebookAppDelegate.m in Sources */,
+				5B708E3B13539E78005B1A34 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B708E3F13539E78005B1A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B708E5413539E79005B1A34 /* NotebookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B708E4913539E78005B1A34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B708E1F13539E78005B1A34 /* Notebook */;
+			targetProxy = 5B708E4813539E78005B1A34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B708E2D13539E78005B1A34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B708E2E13539E78005B1A34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B708E3613539E78005B1A34 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B708E3713539E78005B1A34 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		5B708E3C13539E78005B1A34 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B708E3D13539E78005B1A34 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		5B708E4D13539E79005B1A34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B708E4E13539E79005B1A34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B708E5513539E79005B1A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B708E5613539E79005B1A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		5B708E5813539E79005B1A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Notebook/Notebook-Prefix.pch";
+				INFOPLIST_FILE = "Notebook/Notebook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B708E5913539E79005B1A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Notebook/Notebook-Prefix.pch";
+				INFOPLIST_FILE = "Notebook/Notebook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5B708E5B13539E79005B1A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Notebook.app/Notebook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NotebookTests/NotebookTests-Prefix.pch";
+				INFOPLIST_FILE = "NotebookTests/NotebookTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5B708E5C13539E79005B1A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Notebook.app/Notebook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NotebookTests/NotebookTests-Prefix.pch";
+				INFOPLIST_FILE = "NotebookTests/NotebookTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B708E1A13539E78005B1A34 /* Build configuration list for PBXProject "Notebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B708E5513539E79005B1A34 /* Debug */,
+				5B708E5613539E79005B1A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B708E5713539E79005B1A34 /* Build configuration list for PBXNativeTarget "Notebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B708E5813539E79005B1A34 /* Debug */,
+				5B708E5913539E79005B1A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B708E5A13539E79005B1A34 /* Build configuration list for PBXNativeTarget "NotebookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B708E5B13539E79005B1A34 /* Debug */,
+				5B708E5C13539E79005B1A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B708E1713539E78005B1A34 /* Project object */;
+}
