@@ -3,10 +3,11 @@
 //  Notebook
 //
 //  Created by Martin on 11.4.11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Martin Hladil. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import <RestKit/RestKit.h>
 
 @interface NotebookAppDelegate : NSObject <UIApplicationDelegate> {
 
