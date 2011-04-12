@@ -39,20 +39,20 @@
 		5B708E2413539E78005B1A34 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5B708E2613539E78005B1A34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B708E2813539E78005B1A34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5B708E2C13539E78005B1A34 /* Notebook-Info.plist */ = {isa = PBXFileReference; path = "Notebook-Info.plist"; sourceTree = "<group>"; };
+		5B708E2C13539E78005B1A34 /* Notebook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Notebook-Info.plist"; sourceTree = "<group>"; };
 		5B708E2E13539E78005B1A34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5B708E3013539E78005B1A34 /* Notebook-Prefix.pch */ = {isa = PBXFileReference; path = "Notebook-Prefix.pch"; sourceTree = "<group>"; };
+		5B708E3013539E78005B1A34 /* Notebook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Notebook-Prefix.pch"; sourceTree = "<group>"; };
 		5B708E3113539E78005B1A34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5B708E3313539E78005B1A34 /* NotebookAppDelegate.h */ = {isa = PBXFileReference; path = NotebookAppDelegate.h; sourceTree = "<group>"; };
+		5B708E3313539E78005B1A34 /* NotebookAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotebookAppDelegate.h; sourceTree = "<group>"; };
 		5B708E3413539E78005B1A34 /* NotebookAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotebookAppDelegate.m; sourceTree = "<group>"; };
 		5B708E3713539E78005B1A34 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		5B708E3913539E78005B1A34 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		5B708E3913539E78005B1A34 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		5B708E3A13539E78005B1A34 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		5B708E3D13539E78005B1A34 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 		5B708E4413539E78005B1A34 /* NotebookTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotebookTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B708E4C13539E79005B1A34 /* NotebookTests-Info.plist */ = {isa = PBXFileReference; path = "NotebookTests-Info.plist"; sourceTree = "<group>"; };
+		5B708E4C13539E79005B1A34 /* NotebookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NotebookTests-Info.plist"; sourceTree = "<group>"; };
 		5B708E4E13539E79005B1A34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5B708E5013539E79005B1A34 /* NotebookTests-Prefix.pch */ = {isa = PBXFileReference; path = "NotebookTests-Prefix.pch"; sourceTree = "<group>"; };
+		5B708E5013539E79005B1A34 /* NotebookTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NotebookTests-Prefix.pch"; sourceTree = "<group>"; };
 		5B708E5113539E79005B1A34 /* NotebookTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotebookTests.h; sourceTree = "<group>"; };
 		5B708E5313539E79005B1A34 /* NotebookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotebookTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
