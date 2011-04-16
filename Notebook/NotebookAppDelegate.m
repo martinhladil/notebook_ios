@@ -20,7 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
   // Initialize RestKit
-  NSString *baseUrl = @"http://notebook.hladil.name/notes";
+  NSString *baseUrl = @"http://notebook.hladil.name";
   RKObjectManager *objectManager = [RKObjectManager objectManagerWithBaseURL:baseUrl];
   
   // Map JSON elements to Obj-C classes

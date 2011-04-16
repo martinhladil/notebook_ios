@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <RestKit/RestKit.h>
 
-@interface RootViewController : UITableViewController {
-
+@interface RootViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource, RKObjectLoaderDelegate> {
+  
+  NSArray *_notes;
+  UITableView *notesView;
 }
 
+@property (nonatomic, retain) IBOutlet UITableView *notesView;
+@property (nonatomic, retain) NSArray *notes;
 
 @end
