@@ -6,7 +6,9 @@
 //  Copyright 2011 Martin Hladil. All rights reserved.
 //
 
+#import <RestKit/RestKit.h>
 #import "NotebookAppDelegate.h"
+#import "Note.h"
 
 @implementation NotebookAppDelegate
 
@@ -17,11 +19,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+  // Initialize RestKit
+  NSString *baseUrl = @"http://notebook.hladil.name/notes";
+  RKObjectManager *objectManager = [RKObjectManager objectManagerWithBaseURL:baseUrl];
+  
+  // Map JSON elements to Obj-C classes
+  RKObjectMapper  *mapper = objectManager.mapper;
+  [mapper registerClass:[Note class] forElementNamed:@"notes"];
+  
   // Override point for customization after application launch.
   // Add the navigation controller's view to the window and display.
   self.window.rootViewController = self.navigationController;
   [self.window makeKeyAndVisible];
-    return YES;
+  return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -67,7 +77,7 @@
 {
   [_window release];
   [_navigationController release];
-    [super dealloc];
+  [super dealloc];
 }
 
 @end
