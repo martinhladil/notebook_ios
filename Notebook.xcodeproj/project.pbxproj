@@ -31,6 +31,7 @@
 		5B708E4F13539E79005B1A34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B708E4D13539E79005B1A34 /* InfoPlist.strings */; };
 		5B708E5213539E79005B1A34 /* NotebookTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 5B708E5113539E79005B1A34 /* NotebookTests.h */; };
 		5B708E5413539E79005B1A34 /* NotebookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B708E5313539E79005B1A34 /* NotebookTests.m */; };
+		5B8A72501356392B0043AFB0 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8A724F1356392B0043AFB0 /* Note.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,6 +152,8 @@
 		5B708E5013539E79005B1A34 /* NotebookTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NotebookTests-Prefix.pch"; sourceTree = "<group>"; };
 		5B708E5113539E79005B1A34 /* NotebookTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotebookTests.h; sourceTree = "<group>"; };
 		5B708E5313539E79005B1A34 /* NotebookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotebookTests.m; sourceTree = "<group>"; };
+		5B8A724E1356392B0043AFB0 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		5B8A724F1356392B0043AFB0 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,12 +248,11 @@
 		5B708E2A13539E78005B1A34 /* Notebook */ = {
 			isa = PBXGroup;
 			children = (
+				5B8A725113563B870043AFB0 /* Controllers */,
+				5B8A724A1356379B0043AFB0 /* Models */,
 				5B708E3313539E78005B1A34 /* NotebookAppDelegate.h */,
 				5B708E3413539E78005B1A34 /* NotebookAppDelegate.m */,
-				5B708E3613539E78005B1A34 /* MainWindow.xib */,
-				5B708E3913539E78005B1A34 /* RootViewController.h */,
-				5B708E3A13539E78005B1A34 /* RootViewController.m */,
-				5B708E3C13539E78005B1A34 /* RootViewController.xib */,
+				5B8A725213563BA70043AFB0 /* Resources */,
 				5B708E2B13539E78005B1A34 /* Supporting Files */,
 			);
 			path = Notebook;
@@ -285,6 +287,33 @@
 				5B708E5013539E79005B1A34 /* NotebookTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B8A724A1356379B0043AFB0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5B8A724E1356392B0043AFB0 /* Note.h */,
+				5B8A724F1356392B0043AFB0 /* Note.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5B8A725113563B870043AFB0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B708E3913539E78005B1A34 /* RootViewController.h */,
+				5B708E3A13539E78005B1A34 /* RootViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5B8A725213563BA70043AFB0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5B708E3613539E78005B1A34 /* MainWindow.xib */,
+				5B708E3C13539E78005B1A34 /* RootViewController.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,6 +361,9 @@
 /* Begin PBXProject section */
 		5B708E1713539E78005B1A34 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Martin Hladil";
+			};
 			buildConfigurationList = 5B708E1A13539E78005B1A34 /* Build configuration list for PBXProject "Notebook" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -475,6 +507,7 @@
 				5B708E3213539E78005B1A34 /* main.m in Sources */,
 				5B708E3513539E78005B1A34 /* NotebookAppDelegate.m in Sources */,
 				5B708E3B13539E78005B1A34 /* RootViewController.m in Sources */,
+				5B8A72501356392B0043AFB0 /* Note.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
