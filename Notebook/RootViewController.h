@@ -13,6 +13,7 @@
   
   NSArray *_notes;
   UITableView *notesView;
+  UIBarButtonItem* _newNoteButtonItem;
 }
 
 @property (nonatomic, retain) IBOutlet UITableView *notesView;

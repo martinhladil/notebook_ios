@@ -36,8 +36,17 @@
   [super viewDidLoad];
   // Load the object model via RestKit
   NSString *resourcePath = @"/notes.json";
-	RKObjectManager* objectManager = [RKObjectManager sharedManager];
+	RKObjectManager *objectManager = [RKObjectManager sharedManager];
 	[objectManager loadObjectsAtResourcePath:resourcePath objectClass:[Note class] delegate:self];
+  
+  _newNoteButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
+                                                                     target:self
+                                                                     action:@selector(newNoteButtonItemWasPressed:)];
+	self.navigationItem.rightBarButtonItem = _newNoteButtonItem;
+}
+
+- (void)newNoteButtonItemWasPressed:(id)sender {
+	
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -161,6 +170,7 @@
   
   // Relinquish ownership of anything that can be recreated in viewDidLoad or on demand.
   // For example: self.myOutlet = nil;
+  [_newNoteButtonItem release];
 }
 
 - (void)dealloc
