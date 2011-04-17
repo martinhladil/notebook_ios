@@ -10,7 +10,7 @@
 #import "Note.h"
 
 @implementation RootViewController
-@synthesize notesView;
+@synthesize notesView = _notesView;
 @synthesize notes = _notes;
 
 - (void)objectLoader:(RKObjectLoader *)objectLoader didLoadObjects:(NSArray *)objects 
@@ -175,7 +175,7 @@
 
 - (void)dealloc
 {
-  [notesView release];
+  [_notesView release];
   [super dealloc];
 }
 

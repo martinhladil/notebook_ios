@@ -12,8 +12,8 @@
 @interface RootViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource, RKObjectLoaderDelegate> {
   
   NSArray *_notes;
-  UITableView *notesView;
-  UIBarButtonItem* _newNoteButtonItem;
+  UITableView *_notesView;
+  UIBarButtonItem *_newNoteButtonItem;
 }
 
 @property (nonatomic, retain) IBOutlet UITableView *notesView;
