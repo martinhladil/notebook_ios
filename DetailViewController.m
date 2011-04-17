@@ -11,7 +11,7 @@
 @implementation DetailViewController
 
 @synthesize note = _note;
-@synthesize noteLabel = _noteLabel;
+@synthesize noteTextView = _noteTextView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -25,6 +25,7 @@
 - (void)dealloc
 {
   [_note release];
+  [_noteTextView release];
   [super dealloc];
 }
 
@@ -42,11 +43,12 @@
 {
   [super viewDidLoad];
   // Do any additional setup after loading the view from its nib.
-  _noteLabel.text = _note;
+  _noteTextView.text = _note;
 }
 
 - (void)viewDidUnload
 {
+  [self setNoteTextView:nil];
   [super viewDidUnload];
   // Release any retained subviews of the main view.
   // e.g. self.myOutlet = nil;

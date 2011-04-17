@@ -11,11 +11,11 @@
 @interface DetailViewController : UIViewController {
   
   NSString *_note;
-  IBOutlet UILabel *_noteLabel;
-  
+  UITextView *_noteTextView;
+
 }
 
 @property (nonatomic, retain) NSString *note;
-@property (nonatomic, retain) IBOutlet UILabel *noteLabel;
+@property (nonatomic, retain) IBOutlet UITextView *noteTextView;
 
 @end
