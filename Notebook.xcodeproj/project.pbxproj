@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B0593E0135B49C2009419F0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0593DE135B49C2009419F0 /* DetailViewController.m */; };
+		5B0593E1135B49C2009419F0 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B0593DF135B49C2009419F0 /* DetailViewController.xib */; };
 		5B36F6681354F95200D2FD86 /* libRestKitCoreData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B36F6631354F95200D2FD86 /* libRestKitCoreData.a */; };
 		5B36F6691354F95200D2FD86 /* libRestKitJSONParserYAJL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B36F6641354F95200D2FD86 /* libRestKitJSONParserYAJL.a */; };
 		5B36F66A1354F95200D2FD86 /* libRestKitNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B36F6651354F95200D2FD86 /* libRestKitNetwork.a */; };
@@ -122,6 +124,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B0593DD135B49C2009419F0 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../DetailViewController.h; sourceTree = "<group>"; };
+		5B0593DE135B49C2009419F0 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../DetailViewController.m; sourceTree = "<group>"; };
+		5B0593DF135B49C2009419F0 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailViewController.xib; path = ../DetailViewController.xib; sourceTree = "<group>"; };
 		5B36F6381354F84300D2FD86 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
 		5B36F6631354F95200D2FD86 /* libRestKitCoreData.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRestKitCoreData.a; sourceTree = SOURCE_ROOT; };
 		5B36F6641354F95200D2FD86 /* libRestKitJSONParserYAJL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRestKitJSONParserYAJL.a; sourceTree = SOURCE_ROOT; };
@@ -303,6 +308,8 @@
 			children = (
 				5B708E3913539E78005B1A34 /* RootViewController.h */,
 				5B708E3A13539E78005B1A34 /* RootViewController.m */,
+				5B0593DD135B49C2009419F0 /* DetailViewController.h */,
+				5B0593DE135B49C2009419F0 /* DetailViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -312,6 +319,7 @@
 			children = (
 				5B708E3613539E78005B1A34 /* MainWindow.xib */,
 				5B708E3C13539E78005B1A34 /* RootViewController.xib */,
+				5B0593DF135B49C2009419F0 /* DetailViewController.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -469,6 +477,7 @@
 				5B708E2F13539E78005B1A34 /* InfoPlist.strings in Resources */,
 				5B708E3813539E78005B1A34 /* MainWindow.xib in Resources */,
 				5B708E3E13539E78005B1A34 /* RootViewController.xib in Resources */,
+				5B0593E1135B49C2009419F0 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +517,7 @@
 				5B708E3513539E78005B1A34 /* NotebookAppDelegate.m in Sources */,
 				5B708E3B13539E78005B1A34 /* RootViewController.m in Sources */,
 				5B8A72501356392B0043AFB0 /* Note.m in Sources */,
+				5B0593E0135B49C2009419F0 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,9 +7,11 @@
 //
 
 #import "RootViewController.h"
+#import "DetailViewController.h"
 #import "Note.h"
 
 @implementation RootViewController
+
 @synthesize notesView = _notesView;
 @synthesize notes = _notes;
 
@@ -146,13 +148,11 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-  /*
-   <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-   // ...
-   // Pass the selected object to the new view controller.
-   [self.navigationController pushViewController:detailViewController animated:YES];
-   [detailViewController release];
-   */
+  DetailViewController *detailViewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:nil];
+  detailViewController.note = [[_notes objectAtIndex:indexPath.row] content];
+  // Pass the selected object to the new view controller.
+  [self.navigationController pushViewController:detailViewController animated:YES];
+  [detailViewController release];
 }
 
 - (void)didReceiveMemoryWarning

@@ -12,9 +12,7 @@
 
 @implementation NotebookAppDelegate
 
-
 @synthesize window=_window;
-
 @synthesize navigationController=_navigationController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
