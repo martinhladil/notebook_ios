@@ -102,6 +102,7 @@
   
   // Configure the cell.
   cell.textLabel.text = [[self.notes objectAtIndex:indexPath.row] content];
+  cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
   return cell;
 }
 
